@@ -1,0 +1,32 @@
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui" >
+    <f:view contentType="text/html">
+        <h:head>
+            <f:facet name="first">
+                <title>#{indexBean.name}</title>
+            </f:facet>
+        </h:head>
+        <h:body>
+
+            <p:growl  autoUpdate="true" widgetVar="msg" showDetail="true" showSummary="ture"  />
+            <p:layout fullPage="true">
+                <p:layoutUnit position="center">
+                    <f:view >
+                        <h:form id="loginform"   >
+
+                           <a href="http://192.168.1.33:8090/FileLocator/faces/fileLocator.xhtml?decomptID=AZ2C078A010_AZ2359065_CIN.PDF">Login page</a>
+                           <br/>
+                             <a href="http://192.168.1.33:8090/FileLocator/faces/fileLocator.xhtml?decomptID=filepdf_31.PDF">Login page2</a>
+<br/>
+                             <a href="http://192.168.1.33:8090/FileLocator/faces/fileLocator.xhtml?decomptID=filepdf_3.PDF">Login page2</a>
+                        </h:form>
+                    </f:view>
+                </p:layoutUnit>
+            </p:layout>
+        </h:body>
+    </f:view>
+</html>
+

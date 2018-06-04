@@ -1,0 +1,15 @@
+
+body,input,textarea,select,button,.normal{font-family:"Open Sans","lucida grande","Segoe UI",arial,verdana,"lucida sans unicode",tahoma,sans-serif;font-size:13px;color:#3d464d;font-weight:normal}
+body{background-color:#fff;min-height:100%;margin:0;padding:0}
+a,a *{cursor:pointer;outline:none}a{color:#2895f1;text-decoration:none}a img{border:0}
+p,h1,h2,h3,h4,h5{margin:0 0 1em 0;line-height:1.6em}
+h1{font-size:18pt;font-weight:normal;margin:10px 0}
+
+body{color:#444;font-size:20px;font-weight:normal;text-align:center;width:100%}
+{body{font-size:38px}}
+div.figure{margin:40px 0 0;padding:0}
+div.figure img{height:auto;max-width:100%}
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px){div.figure img{width:80%}}
+#errorbox{line-height:2.6em;margin:0 auto;max-width:600px;padding:0 20px;text-align:center}
+#errorbox a{color:#2895f1;text-decoration:none}
+#errorbox h1{color:#EFA627;font-size:1.8em;font-weight:normal;margin:10px 0}
